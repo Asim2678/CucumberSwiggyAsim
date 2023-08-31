@@ -2,7 +2,7 @@
 Feature:  A user can add a food in Swiggy web application
 Background:
   Given User navigate to  Swiggy web application "https://www.swiggy.com/"
- @FlowTest
+ @InitialTest
   Scenario: User successfully selects Location as Ahmadabad
     When As a Swiggy application user I click on to AhmadAbad
     And User lands onto  I click onto Swiggy Ahmadabad Homepage
